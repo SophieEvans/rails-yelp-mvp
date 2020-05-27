@@ -1,0 +1,7 @@
+<!-- app/views/reviews/new.html.erb -->
+<%= simple_form_for @restaurant do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :category %>
+  <%= f.submit "Create New Restaurant", class: "btn btn-primary" %>
+<% end %>
